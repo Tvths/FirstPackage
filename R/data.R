@@ -1,0 +1,14 @@
+#' Example graph from Wikipedia
+#'
+#' An undirected weighted graph with 6 nodes, taken from the Wikipedia page
+#' on Dijkstra's algorithm. Each undirected edge is stored twice, once in
+#' each direction.
+#'
+#' @format A data.frame with 18 rows and 3 variables:
+#' \describe{
+#'   \item{v1}{Numeric, the node where the edge starts.}
+#'   \item{v2}{Numeric, the node where the edge ends.}
+#'   \item{w}{Numeric, the weight of the edge.}
+#' }
+#' @source \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
+"wiki_graph"
